@@ -1,1 +1,1 @@
-def carga_datos():
+def carga_datos(lista):    datos = []    with open(lista, "r") as archivo:        for linea in archivo:            linea = linea.strip()            partes = linea.split(",")            datos.append(partes)    return datos
