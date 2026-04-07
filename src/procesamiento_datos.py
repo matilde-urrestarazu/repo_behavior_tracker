@@ -1,12 +1,12 @@
 def filtrar_por_participante(datos, id_participante):
     
     '''
-    La función obtiene los datos de un participante especifico, ignorando los demás.
+    Que hace la funcion: La función obtiene los datos de un participante especifico, ignorando los demás.
     
-    parametros:
+    Parametros:
         datos (list): lista con la informacion de todos los participantes
         id_participante (int): numero que identifica al participante cuyos datos se quiere obtener 
-    return:
+    Retorna:
         datos_participante (list): datos del participante filtrado
 
     '''
